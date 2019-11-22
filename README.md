@@ -13,16 +13,11 @@ To get started the user clicks on the deployment link which will bring them to t
 
 On the header of the page the user will see the hamburger icon which has a drop down menu that displays the 3 sections the user can select to bring them to that particular part of the website.
 
-The main content section shows all the different types of services that BuzzNews offers to their customers. The first part of the main section shows "TOP STORY NEWS" which displays the data from the Third Party API. The second section shows "SPORTS NEWS" which displays the data from the mock API. The third section is the "CREATE A POST" section which allows the user to create their own post which is added to the end of the data of the mock api and displayed in the "SPORTS NEWS" section.
+The main content section shows all the different types of services that BuzzNews offers to their users. The first part of the main section shows "TOP STORY NEWS" which displays the data from the Third Party API. The second section shows "SPORTS NEWS" which displays the data from the mock API. The third section is the "CREATE A POST" section which allows the user to create their own post which is added to the end of the data of the mock api and displayed in the "SPORTS NEWS" section.
 
 ### URL Section
 
-[Github rep link](https://tk9285.github.io/SEI-OWLS-P1/)
-
-
-### Inspired By Sites Like
-
-[Uber](https://www.uber.com/)
+[Github rep link](https://tk9285.github.io/buzznews/)
 
 ## List of Dependencies / Technologies Front-End
 
@@ -32,5 +27,4 @@ CSS -- Cascading Style Sheets (CSS) is a style sheet language used for describin
 
 Javascript -- a scripting language that enables you to create dynamically updating content, control multimedia, animate images, etc.
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/53023966/68064484-8a0e7800-fcf2-11e9-952c-8e3a1e21bdb1.gif)
-
+REACT.JS -- is a open-source JavaScript library which is used for building user interfaces specifically for single page applications. It's used for handling view layer for web and mobile apps. React also allows us to create reusable UI components.
