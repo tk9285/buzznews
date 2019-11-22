@@ -28,3 +28,5 @@ CSS -- Cascading Style Sheets (CSS) is a style sheet language used for describin
 Javascript -- a scripting language that enables you to create dynamically updating content, control multimedia, animate images, etc.
 
 REACT.JS -- is a open-source JavaScript library which is used for building user interfaces specifically for single page applications. It's used for handling view layer for web and mobile apps. React also allows us to create reusable UI components.
+
+Application Programming Interface (API) -- a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.
