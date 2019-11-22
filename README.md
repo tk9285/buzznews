@@ -17,7 +17,7 @@ The main content section shows all the different types of services that BuzzNews
 
 ### URL Section
 
-[Github rep link](https://tk9285.github.io/buzznews/)
+[Surge repo link] (http://like-birthday.surge.sh/)
 
 ## List of Dependencies / Technologies Front-End
 
