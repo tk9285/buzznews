@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -6,8 +9,482 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.Header {
+  height: 70px;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  color: white;
+}
+.leftSection {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  flex-basis: 42%;
+}
+.iconBorder {
+  border: 1px solid;
+  margin-left: 10px;
+}
+.rightSection {
+  align-items: center;
+  display: flex;
+}
+.btn {
+  padding: 13px 20px;
+  background: white;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+.arrowsContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin: 48px 5px;
+}
+.arrowContainer,
+a {
+  color: #fff;
+}
 
-code {
+.Home {
+  height: calc(100vh - 70px);
+  background-image: url("./background.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Story {
+  width: 80%;
+  height: 80%;
+  background: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.Headline {
+  width: 100%;
+  height: 100px;
+  /* background: red; */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: 45px;
+  border-bottom: 1px solid black;
+  text-shadow: 2px 2px purple;
+}
+
+/* topstory */
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: black;
+}
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid black;
+  height: 100%;
+}
+.topHeading {
+  background: lightgrey;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-size: 21px;
+  overflow-y: scroll;
+}
+.description {
+  width: 100%;
+  height: 55%;
+  color: black;
+  overflow-y: scroll;
+}
+.para {
+  padding: 0 30px;
+  font-size: 22px;
+}
+.moreInfo {
+  display: none;
+}
+.arrowContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.blackBtn {
+  padding: 13px 20px;
+  background: black;
+  color: white;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.previousBtn {
+  padding: 13px 20px;
+  background: black;
+  color: white;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nextBtn {
+  padding: 13px 20px;
+  background: black;
+  color: white;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alignRight {
+  margin-left: 5px;
+}
+.alignLeft {
+  margin-right: 5px;
+}
+.rightContent {
+  width: 50%;
+  border: 1px solid black;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.success {
+  font-size: 23px;
+  color: green;
+}
+
+.form {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  color: black;
+  justify-content: center;
+  margin: 20px;
+}
+.formContent {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"] {
+  font-size: 24px;
+}
+.formStyle {
+  margin: 0 30px;
+  width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+.label {
+  font-size: 45px;
+  margin-right: 25px;
+  width: 50%;
+}
+.input {
+  border: none;
+  border-bottom: 1.5px dashed;
+  width: 100%;
+}
+.btnrow {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 0;
+}
+.roundButton {
+  padding: 13px 20px;
+  color: white;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  border: 0;
+}
+.footer {
+  background: black;
+  height: 65px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.box {
+  width: 65px;
+  background: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.innerBox {
+  background: black;
+  height: 80%;
+  width: 68%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobilepara {
+  display: none;
+}
+.w--nav-menu-open {
+  display: block !important;
+  position: relative;
+  top: 60px;
+  left: -52%;
+  right: 0;
+  background: #fff;
+  text-align: center;
+  overflow: visible;
+  min-width: 240px;
+  height: 250px;
+}
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.menuButton {
+  width: 170px;
+  background: white;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 5px 0;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+/* Smartphones (portrait and landscape) ----------- / */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+  }
+  .Story {
+    height: 90%;
+    margin-top: 25px;
+  }
+  .createPost{
+    height: auto;
+  }
+  .Headline {
+    height: 60px;
+    font-size: 25px;
+  }
+  .heading {
+    margin-right: 125px;
+  }
+  .leftSection{
+    flex-basis: auto;
+  }
+  .rightSection {
+    display: block;
+  }
+  .content {
+    flex-direction: column-reverse;
+  }
+  .leftContent {
+    width: 100%;
+  }
+  .topHeading {
+    height: 30%;
+    font-size: 11px;
+  }
+  .para {
+    display: none;
+  }
+  .moreInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .rightContent {
+    width: 100%;
+    height: 50%;
+  }
+  .previousBtn {
+    font-size: 17px;
+  }
+  .nextBtn {
+    font-size: 17px;
+    background: #fff;
+    color: #000;
+  }
+  .arrowsContainer {
+    margin: 20px 10px;
+  }
+  .mobilepara {
+    display: flex;
+    text-align: center;
+  }
+  .iconBorder {
+    display: none;
+  }
+  .Header {
+    flex-direction: row-reverse;
+  }
+  .heading {
+    margin-left: 15px;
+  }
+  .label {
+    font-size: 15px;
+  }
+  .formStyle {
+    margin: 0 10px;
+  }
+  .form {
+    margin: 7px;
+  }
+  .row {
+    padding: 20px 0;
+  }
+  .w--nav-menu-open {
+    display: block !important;
+    position: relative;
+    top: 60px;
+    left: 91%;
+    right: 0;
+    background: #fff;
+    text-align: center;
+    overflow: visible;
+    min-width: 215px;
+    height: 750px;
+  }
+  .menuContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .menuButton {
+    width: 170px;
+    background: white;
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 5px 0;
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+  .w--nav-menu-open {
+    left: 100%;
+    width: 610px;
+  }
+  .topHeading{
+    height: 40%;
+  }
+  .moreInfo{
+    margin-top: 15px;
+  }
+  .description {
+    height: 40%;
+  }
+
+}
+/* Smartphones (landscape) ----------- / */
+@media screen and (max-width: 880px) {
+  .content{
+    flex-direction: column-reverse;
+  }
+  .content .leftContent{
+    width: 100%;
+    height: 100%;
+  }
+  .leftContent .topHeading{
+    font-size: 9px;
+  }
+  .content .rightContent{
+    width: 100%;
+    height: 100%;
+  }
+  .leftContent  .para{
+    font-size: 15px;
+  }
+}
+
+/* Smartphones (portrait) ----------- / */
+@media only screen and (max-width: 320px) {
+  /* / Styles */
+}
+
+/* iPads (portrait and landscape) ----------- / */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1180px) {
+  /* / Styles */
+  .row {
+    padding: 10px 0;
+  }
+  .topHeading {
+    font-size: 14px;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .label{
+    font-size: 30px;
+  }
+}
+
+/* iPads (landscape) ----------- / */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* / Styles */
+}
+
+/* iPads (portrait) ----------- / */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* / Styles */
+}
+
+/* Desktops and laptops ----------- / */
+@media only screen and (min-width: 1224px) {
+  /* / Styles */
+}
+
+/* Large screens ----------- / */
+@media only screen and (min-width: 1824px) {
+  /* / Styles */
+}
+
+/* iPhone 4 ----------- / */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  /* / Styles */
 }
