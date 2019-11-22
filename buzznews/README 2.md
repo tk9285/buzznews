@@ -15,6 +15,11 @@ On the header of the page the user will see the hamburger icon which has a drop 
 
 The main content section shows all the different types of services that BuzzNews offers to their users. The first part of the main section shows "TOP STORY NEWS" which displays the data from the Third Party API. The second section shows "SPORTS NEWS" which displays the data from the mock API. The third section is the "CREATE A POST" section which allows the user to create their own post which is added to the end of the data of the mock api and displayed in the "SPORTS NEWS" section.
 
+### URL Section
+
+[Surge rep link](like-birthday.surge.sh/)
+
+
 ## List of Dependencies / Technologies Front-End
 
 HTML5 -- HTML is the standard markup language for creating a website.
