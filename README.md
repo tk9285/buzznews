@@ -31,5 +31,3 @@ REACT.JS -- is a open-source JavaScript library which is used for building user 
 
 Application Programming Interface (API) -- a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/53023966/68064484-8a0e7800-fcf2-11e9-952c-8e3a1e21bdb1.gif)
-
